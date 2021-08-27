@@ -1,5 +1,14 @@
 body {
     text-align: center;
-    color: blueviolet;
-    font-family: "Calibri";
+    color: rgb(49, 48, 51);
+    font-family: 'sans-serif';
+}
+
+#autor {
+    color: rgb(65, 12, 161);
+    font-style: normal;
+}
+
+#profession {
+    color: rgb(104, 8, 194);
 }
