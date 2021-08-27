@@ -1,14 +1,43 @@
 body {
+    background-color: rgb(224, 219, 224);
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+    height: 300px;
+    -webkit-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.57);
+    box-shadow: -1px 10px 14px 0px rgba(0,0,0,0.57);
+    border-radius: 10px;
+    
+}
+
+.cabecera {
+    margin: 0;
+    padding: 1em;
+    background-color: rgb(68, 9, 145);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cabecera #tag {
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: italic;    
+}
+
+.content {
+    margin: 10px;
+}
+
+.profession {
     text-align: center;
-    color: rgb(49, 48, 51);
-    font-family: 'sans-serif';
-}
-
-#autor {
-    color: rgb(65, 12, 161);
-    font-style: normal;
-}
-
-#profession {
-    color: rgb(104, 8, 194);
 }
